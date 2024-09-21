@@ -31,8 +31,8 @@ body {
 
 .logo-text {
     margin-top: 10vh;
-    background-color: rgba(98, 32, 1, 0.3);
-    color: #fbc000;
+    background-color: rgba(98, 39, 2, 0.4);
+    color: #FAB400;
     font-family: alluraregular;
     font-size: 3.5rem;
     font-weight: 600;
@@ -40,9 +40,29 @@ body {
 
 .photo-credit {
     margin-bottom: 1lh;
-    color: white;
+    color: #BAD5DF;
 }
 
 .photo-credit a:link {
-    color: #fbc000;
+    color: #FAB400;
+}
+
+.form-sec {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D5E6EC;
+    font-family: montserratregular;
+}
+
+.pre-form-text {
+    max-width: 50ch;
+    margin: 0 0 5vh 2vw;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.pre-form-text p:first-child {
+    margin-bottom: 0.7lh;
 }
