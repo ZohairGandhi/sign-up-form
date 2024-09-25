@@ -119,6 +119,18 @@ input:invalid {
     border: 2px solid red;
 }
 
+.label-input-pair {
+    position: relative;
+}
+
+#pwd:invalid + span::after, #confirm-pwd:invalid + span::after {
+    position: absolute;
+    bottom: -1.25lh;
+    font-size: 0.6rem;
+    color: red;
+    content: "Must be at least 5 characters";
+}
+
 .btn-endtext {
     display: flex;
     flex-direction: column;
