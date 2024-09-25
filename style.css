@@ -104,7 +104,7 @@ label {
 input {
     appearance: none;
     width: 25ch;
-    height: 1.9lh;
+    height: 1.7lh;
     border: 1px solid #8E8167;
     border-radius: 6px;
     box-shadow: none;
@@ -112,9 +112,39 @@ input {
 
 input:focus {
     border: 1px solid #6CB4EE;
-    box-shadow: 5px 5px 5px 0px #8E8167;
+    box-shadow: 5px 4px 5px -4px #8E8167;
 }
 
 input:invalid {
     border: 2px solid red;
+}
+
+.btn-endtext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1lh;
+    margin: 1.3lh 0 0 4vw;
+}
+
+.btn-endtext button {
+    max-width: 20ch;
+    height: 2.5lh;
+    font-size: 1.1rem;
+    background-color: #355E1C;
+    color: #F7F6F4;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px -4px #8E8167;
+}
+
+.btn-endtext button:hover {
+    background-color: #477E26;
+}
+
+.btn-endtext p {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.btn-endtext p a {
+    color: #355E1C;
 }
