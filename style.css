@@ -123,10 +123,18 @@ input:invalid {
     position: relative;
 }
 
+#email:invalid + span::after {
+    position: absolute;
+    bottom: -1.25lh;
+    font-size: 0.7rem;
+    color: red;
+    content: "Email not in valid format";
+}
+
 #pwd:invalid + span::after, #confirm-pwd:invalid + span::after {
     position: absolute;
     bottom: -1.25lh;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: red;
     content: "Must be at least 5 characters";
 }
